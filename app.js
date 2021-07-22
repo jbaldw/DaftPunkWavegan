@@ -1,7 +1,7 @@
 const express = require("express");
 const exec = require("child_process").execFile;
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 80;
 
 app.set("view engine", "ejs");
 
