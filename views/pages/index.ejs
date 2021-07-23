@@ -9,15 +9,54 @@
     <meta name="description" content="A simple boilerplate template for HTML5 projects">
     <meta name="author" content="Joshua Baldwin">
 
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="stylesheets/style.css">
 </head>
 <body>
     <!-- Website Content -->
-    <button id="generate-samples">Click me!</button>
+    <div id="header_container">
+        <h1>Daft Punk Sample WaveGAN Generator</h1>
+    </div>
 
-    <audio controls>
-        <source src="" type="audio/wav">
-    </audio>
+    <div id="button_container">
+        <button id="generate_samples">Generate Samples</button>
+    </div>
+
+    <div id="audio_files_container">
+        <div id="audio_files_top">
+            <audio controls>
+                <source src="/sample0.wav" type="audio/wav">
+            </audio>
+            <audio controls>
+                <source src="/sample1.wav" type="audio/wav">
+            </audio>
+            <audio controls>
+                <source src="/sample2.wav" type="audio/wav">
+            </audio>
+            <audio controls>
+                <source src="/sample3.wav" type="audio/wav">
+            </audio>
+            <audio controls>
+                <source src="/sample4.wav" type="audio/wav">
+            </audio>
+        </div>
+        <div id="audio_files_bottom">
+            <audio controls>
+                <source src="/sample5.wav" type="audio/wav">
+            </audio>
+            <audio controls>
+                <source src="/sample6.wav" type="audio/wav">
+            </audio>
+            <audio controls>
+                <source src="/sample7.wav" type="audio/wav">
+            </audio>
+            <audio controls>
+                <source src="/sample8.wav" type="audio/wav">
+            </audio>
+            <audio controls>
+                <source src="/sample9.wav" type="audio/wav">
+            </audio>
+        </div>
+    </div>
 
     <script src="./javascripts/jquery.js"></script>
     <script src="./javascripts/generator.js"></script>
