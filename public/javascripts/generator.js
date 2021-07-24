@@ -1,6 +1,9 @@
-let button = document.getElementById("generate-samples");
+let button = document.getElementById("generate_samples");
+let load   = document.getElementById("loading_wheel");
 
 button.onclick = function(event) {
+    load.style.visibility = "visible";
+
     $.ajax({
         type: "GET",
         url: "/generate",

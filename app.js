@@ -21,12 +21,17 @@ app.get("/javascripts/generator.js", (req, res) => {
 
 app.get("/generate", (req, res) => {
   exec(__dirname + "/public/audio-generator.exe", function(err, data) {
+    
+
     if(err) {
       console.log(err);
     }
     else {
       console.log(data);
     }
+
+    res.type(".js");
+    res.send("load.style.visibility = \"hidden\"");
   });
 })
 
@@ -71,10 +76,6 @@ app.get("/sample9.wav", (req, res) => {
 })
 
 app.listen(port, () => {
-<<<<<<< HEAD
   console.log("Listening at http://localhost:80");
 })
-=======
-  console.log("Listening at http://localhost:3000");
-})
->>>>>>> 7eecb0d9f36806b0abbb17103140c1c3c2af0c5e
+
