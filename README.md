@@ -1,8 +1,8 @@
 <h1 align="center">
   <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="Markdownify" width="200"></a>
+  <a href="https://th.bing.com/th/id/OIP.9Mm17n9ij0PpHeIoTYqYmgHaIG?pid=ImgDet&rs=1" alt="Markdownify" width="200"></a>
   <br>
-  Markdownify
+  Daft Punk WaveGAN Sample Generator
   <br>
 </h1>
 
