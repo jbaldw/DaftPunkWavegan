@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://th.bing.com/th/id/OIP.9Mm17n9ij0PpHeIoTYqYmgHaIG?pid=ImgDet&rs=1" alt="Markdownify" width="200"></a>
+  <a href="https://www.downloadclipart.net/medium/daft-punk-transparent-png.png" alt="Daft Punk" width="200"></a>
   <br>
   Daft Punk WaveGAN Sample Generator
   <br>
